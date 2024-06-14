@@ -91,7 +91,7 @@ M.editor = {
     Substitute = {}, -- TODO
     TabLineFill = { fg = colors.fg },
     Tabline = { fg = colors.fg },
-    TablineSel = { fg = colors.bg, bg = colors.accent },
+    TablineSel = { fg = colors.bg, bg = colors.black },
     TermCursor = {}, -- TODO
     TermCursorNC = {}, -- TODO
     Title = { fg = colors.green, bg = colors.none, style = "bold" },
