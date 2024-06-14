@@ -95,7 +95,7 @@ M.editor = {
     TermCursor = {}, -- TODO
     TermCursorNC = {}, -- TODO
     Title = { fg = colors.green, bg = colors.none, style = "bold" },
-    VertSplit = { fg = colors.bg },
+    VertSplit = { fg = colors.green },
     Visual = { fg = colors.none, bg = colors.selection },
     VisualNOS = { fg = colors.none, bg = colors.selection },
     WarningMsg = { fg = colors.yellow },
@@ -260,7 +260,8 @@ M.plugins = {
     },
 
     NvimTree = {
-        NvimTreeNormal = { fg = colors.fg, bg = colors.sidebar },
+        NvimTreeNormal = { fg = colors.fg, bg = colors.bg },
+        NvimTreeWinSeparator = { fg = colors.green },
         NvimTreeRootFolder = { fg = colors.blue, style = "bold" },
         NvimTreeGitDirty = { fg = colors.yellow },
         NvimTreeGitNew = { fg = colors.green },
